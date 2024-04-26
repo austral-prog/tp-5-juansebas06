@@ -19,7 +19,4 @@ def to_string(a, b, c):
     return f"f(x) = {a} * X^2 + {b} * X + {c}"
 
 def derivation(a, b):
-    deriv_a = 2 * a 
-    deriv_b = b  
-    funcion_derivada = f"f'(x) = {deriv_a}x {deriv_b}"
-    return funcion_derivada
+    return f"f'(x) = {2*a}x + {b}"
